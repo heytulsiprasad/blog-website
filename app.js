@@ -83,12 +83,19 @@ app.get("/contact", function (req, res) {
   res.render("contact", {contactText: contactContent});
 });
 
-let port = process.env.PORT;
+// let port = process.env.PORT;
 
-if (port == null || port == "") {
-  port = 3000;
-}
+// if (port == null || port == "") {
+//   port = 3000;
+// }
 
-app.listen(port, function () {
-  console.log("Server started on port 3000");
+// app.listen(port, function () {
+//   console.log("Server started on port 3000");
+// });
+
+app.set('port', (process.env.PORT || 5000));
+
+// Start node server
+app.listen(app.get('port'), function () {
+  console.log('Node server is running on port ' + app.get('port'));
 });
