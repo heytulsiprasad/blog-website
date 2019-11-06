@@ -1,0 +1,21 @@
+<!-- adding header files -->
+<%- include("partials/header") %>
+
+<h1 id="compose-header">Compose</h1>
+
+<!-- creating the form for composing the blogs -->
+<form method="POST" action="/compose">
+
+  <div class="form-group">
+    <label id="title-lvl" for="text">Title</label>
+    <input class="form-control form-control-lg" type="text" name="titleText" />
+    <label id="body-lvl" for="text">Body</label>
+    <textarea class="form-control" name="bodyText" rows="5"></textarea>
+    <button id="publish-btn" type="submit" class="btn btn-primary btn-md" name="button">
+      Publish
+    </button>
+  </div>
+</form>
+
+<!-- adding footer files -->
+<%- include("partials/footer") %>
