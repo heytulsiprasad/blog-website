@@ -6,8 +6,8 @@ const ejs = require("ejs");
 const _ = require("lodash");
 const mongoose = require("mongoose");
 
-// connecting to mongodb and creating a database
-mongoose.connect("mongodb://localhost:27017/blogDB", {
+// connecting to the mongo db and creating a database
+mongoose.connect("mongodb+srv://tulsi-admin:Vicecity1234@cluster0-ijnbu.mongodb.net/selfDB", {
   useNewUrlParser: true,
   useUnifiedTopology: true
 });
