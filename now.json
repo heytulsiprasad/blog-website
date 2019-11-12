@@ -1,0 +1,31 @@
+{
+  "version": 2,
+  "builds": [{ "src": "index.js", "use": "@now/node-server" }],
+  "routes": [
+    {
+      "src": "/compose",
+      "dest": "/index.js",
+      "methods": ["GET"]
+    },
+    {
+      "src": "/compose",
+      "dest": "/index.js",
+      "methods": ["POST"]
+    },
+    {
+      "src": "/posts/:postId",
+      "dest": "/index.js",
+      "methods": ["GET"]
+    },
+    {
+      "src": "/about",
+      "dest": "/index.js",
+      "methods": ["GET"]
+    },
+    {
+        "src": "/contact",
+        "dest": "/index.js",
+        "methods": ["GET"]
+    }
+  ]
+}
