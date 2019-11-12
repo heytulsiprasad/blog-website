@@ -45,10 +45,10 @@ If you're anywhere around my hometown, or I in yours, will definitely want to ca
 
 ### Connect
 
-[GitHub](https://github.com/tulsi-prasad)
-[LinkedIn](https://www.linkedin.com/in/tulsi-prasad/)
-[Instagram](https://www.instagram.com/_.star_._.gazer._/)
-[Twitter](https://twitter.com/tulsi_prasad50)
-[Facebook](https://www.facebook.com/tulsi.prasad.7773)
+[GitHub](https://github.com/tulsi-prasad) |
+[LinkedIn](https://www.linkedin.com/in/tulsi-prasad/) |
+[Instagram](https://www.instagram.com/_.star_._.gazer._/) |
+[Twitter](https://twitter.com/tulsi_prasad50) |
+[Facebook](https://www.facebook.com/tulsi.prasad.7773) |
 [Blogspot](https://www.blogger.com/profile/01016201657276169863)
 
